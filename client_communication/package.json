@@ -1,0 +1,21 @@
+{
+  "name": "pofiler-client_communication-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": " bun --watch .",
+    "start": "bun ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pm2": "^6.0.8",
+    "winston": "^3.17.0"
+  }
+}
